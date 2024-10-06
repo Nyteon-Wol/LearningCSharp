@@ -5,6 +5,7 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
 
 namespace CursoCSharp
 {
@@ -67,6 +68,14 @@ namespace CursoCSharp
                 {"ArrayList - Coleções", ColecoesArrayList.Executar},
                 {"Set - Coleções", ColecoesSet.Executar},
                 {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecoesStack.Executar},
+                {"Coleções Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                //Orientação a objetos
+                {"Herança - Orientação a objetos", Heranca.Executar},
+                {"Construtor This - Orientação a objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientação a objetos", OO.Encapsulamento.Executar},
             });
 
             central.SelecionarEExecutar();
