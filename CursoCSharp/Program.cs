@@ -6,6 +6,9 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Execoes;
+using CursoCSharp.Api;
 
 namespace CursoCSharp
 {
@@ -76,6 +79,24 @@ namespace CursoCSharp
                 {"Herança - Orientação a objetos", Heranca.Executar},
                 {"Construtor This - Orientação a objetos", ConstrutorThis.Executar},
                 {"Encapsulamento - Orientação a objetos", OO.Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a objetos", Polimorfismo.Executar},
+                {"Abstract - Orientação a objetos", Abstract.Executar},
+                {"Interface - Orientação a objetos", Interface.Executar},
+                {"Sealed - Orientação a objetos", Sealed.Executar},
+
+                // Métodos e funções
+                {"Lambda - Métodos & funções", ExemploLambda.Executar},
+                {"Lambdas Delegate - Métodos & funções", LambdasDelegate.Executar},
+                {"Usando Delegates - Métodos & funções", UsandoDelegates.Executar},
+                {"Delegates como funções anônimas - Métodos & funções", DelegateFunAnonima.Executar},
+                {"Métodos De Extensão - Métodos & funções", MetodosDeExtensao.Executar},
+
+                // Exceções
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                {"Exceções personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+
+                // Api
+                {"Primeiro Arquivo - Api", PrimeiroArquivo.Executar},
             });
 
             central.SelecionarEExecutar();
